@@ -5,5 +5,4 @@
   <a href="https://www.zombo.com/">
   <img src="./github_stats.svg" alt="Terminal">
 </a>
-Make sure to star <code><a href="https://github.com/Sorsagan/synitecht">my projects</a></code>.
 </p>
