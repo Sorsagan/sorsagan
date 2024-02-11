@@ -363,7 +363,7 @@
                 <text x="144" textLength="64" class="foreground">$ uptime</text>
             </g>
             <g id="g42">
-                <text x="0" textLength="32" font-weight="bold" class="orange">{{ data.uptime }} days</text>
+                <text x="0" textLength="32" font-weight="bold" class="orange">{{ data.uptime }}</text>
             </g>
             <g id="g43">
                 <text x="0" textLength="128" font-weight="bold" class="color10">{{ data.username }}</text>
@@ -400,7 +400,7 @@
                 <text x="144" textLength="48" class="foreground">$ exit</text>
             </g>
             <g id="g48">
-                <text x="0" textLength="32" class="foreground">Exiting the system...</text>
+                <text x="0" textLength="32" class="foreground">exit</text>
             </g>
         </defs>
         <g id="screen_view">
