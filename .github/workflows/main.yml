@@ -1,0 +1,38 @@
+name: Update Github Stats
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [20.x]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v2
+        with: 
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+      - name: Install requirements
+        run: |
+          npm install
+      - name: Github Configurations
+        run: |
+          git config --global user.name "Github Actions"
+          git config --global user.email "action@github.com"
+          git pull
+      - name: Update Template
+        run: |
+          node updater.js ${{ github.repository_owner }} atom
+        env:
+          GHT: ${{ secrets.GHT }}
+      - name: commiting changed svg template
+        run: |
+          git add .
+          git commit -m "Github Stats updated 🎉" || echo
+          git push
