@@ -6,9 +6,3 @@
     <img src="./github_stats.svg" alt="Terminal">
   </a>
 </p>
-
-<p align='center'>
-  <a href="https://discord.com/users/417302173056237568">
-    <img src="https://lanyard.cnrad.dev/api/417302173056237568?animated=true&borderRadius=6px&bg=121314&idleMessage=joljraolzvbyjljvkl" alt="My Discord">
-  </a>
-</p>
