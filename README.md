@@ -1,1 +1,1 @@
-[![GitHub Streak](https://streak-stats.demolab.com?user=sorsagan&theme=dark)]
+https://www.youtube.com/watch?v=iEIqVq7EZqE
