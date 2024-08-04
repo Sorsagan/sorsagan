@@ -1,1 +1,3 @@
-https://www.youtube.com/watch?v=iEIqVq7EZqE
+<picture>
+  <img src="/github-metrics.svg" alt="Metrics">
+</picture>
